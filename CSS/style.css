@@ -1,0 +1,195 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(175, 171, 171);
+    height: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -15px;
+}
+
+nav a {
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(175, 171, 171);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.absolute-image {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.absolute-image2 {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    width: 150px;
+    height: 100px;
+}
+
+.absolute-image3 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.setup {
+    background-color: rgb(0, 0, 0);
+    font-family: Rubik Doodle Shadow;
+    font-size: 36pt;
+    color: brown;
+    text-shadow:
+            -1px -1px 0 #fff,
+            1px -1px 0 #fff,
+            -1px 1px 0 #fff,
+            1px 1px 0 #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.setup2 {
+    background-image: url(../Images/background.jpg);
+    /* background image opacity */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    font-family: Sofia, sans-serif;
+    font-size: 26pt;
+    margin-top: -200px;
+    z-index: 1;
+    color: brown;
+    text-shadow:
+            -1px -1px 0 #fff,
+            1px -1px 0 #fff,
+            -1px 1px 0 #fff,
+            1px 1px 0 #fff;
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+.setup3 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.headshot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.headshot img {
+    border-radius: 50%;
+}
+
+.intro {
+    color: brown;
+    font-family: Noto Sans;
+    font-size: 14pt;
+    padding: 12px;
+    justify-content: center;
+    text-align: center;
+}
+
+.body a {
+    color: rgb(0, 136, 255);
+    text-decoration: none;
+}
+
+body a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.header {
+    color: brown;
+    font-family: Noto Sans;
+    padding: 12px;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    background: linear-gradient(45deg, rgb(39, 39, 39), rgb(0, 0, 0));
+    padding: 15px 9%;
+    padding-bottom: 20px;
+    display: flex;
+        justify-content: space-around;
+        /* Distributes space around the items */
+        flex-wrap: wrap;
+        /* Allows items to wrap to the next line on smaller screens */
+        padding: 20px;
+        /* Optional: Adds some space inside the container */
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-decoration: none;
+}
+
+.box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+
+}
+.box a {
+    text-decoration: none;
+}
+
+.box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    transform: scale(1.02);
+}
+
+.container .box-container .box h3 {
+    color: rgb(255, 0, 0);
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.container .box-container .box p {
+    color: rgb(255, 0, 0);
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+
+.form-group {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+     margin-bottom: 10px;
+
+}
+ 
+ 
